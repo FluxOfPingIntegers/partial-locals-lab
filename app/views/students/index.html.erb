@@ -1,0 +1,6 @@
+<h1>All Students Within Given Parameters</h1>
+<ul>
+<% @students.each do |student| %>
+  <li><%= link_to student.name, student %></li>
+<% end %>
+</ul>
